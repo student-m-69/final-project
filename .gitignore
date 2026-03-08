@@ -1,0 +1,14 @@
+# SBT
+target/
+project/target/
+project/project/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.bsp/
+
+# OS
+.DS_Store
+Thumbs.db

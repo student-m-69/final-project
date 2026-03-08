@@ -2,12 +2,19 @@
 
 A command-line utility that converts files between three formats: **JSON**, **XML**, and **CSV** — in any direction.
 
-## Requirements
+## Quick Start
 
-- Java 21+
-- SBT 1.10+
+Download `fileconv.jar` from the [latest release](https://github.com/student-m-69/final-project/releases/latest) and run:
 
-## Build & Run
+```bash
+java -jar fileconv.jar --input <input-file> --output <output-file>
+```
+
+Requires **Java 21+** only.
+
+## Build from Source
+
+Requirements: Java 21+, SBT 1.10+
 
 ```bash
 # Build the executable JAR
